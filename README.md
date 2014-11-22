@@ -17,4 +17,39 @@
   > * 支持多进程。
   
 #2.使用（参看demo）
-<img src="https://github.com/laixiao/AndroidCache/blob/master/doc/2.png"></img>
+```java
+public class SaveBitmapActivity extends Activity {
+	private ImageView mIv_bitmap_res;
+	private ACache mCache;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_save_bitmap);
+		// 初始化控件
+		mIv_bitmap_res = (ImageView) findViewById(R.id.iv_bitmap_res);
+		mCache = ACache.get(this);
+	}
+	//点击save事件
+	public void save(View v) {
+		Resources res = getResources();
+		Bitmap bitmap = BitmapFactory.decodeResource(res, R.drawable.img_test);
+		mCache.put("testBitmap", bitmap);
+	}
+
+	//点击read事件
+	public void read(View v) {
+		Bitmap testBitmap = mCache.getAsBitmap("testBitmap");
+		if (testBitmap == null) {
+			Toast.makeText(this, "Bitmap cache is null ...", Toast.LENGTH_SHORT).show();
+			mIv_bitmap_res.setImageBitmap(null);
+			return;
+		}
+		mIv_bitmap_res.setImageBitmap(testBitmap);
+	}
+
+	//点击clear事件
+	public void clear(View v) {
+		mCache.remove("testBitmap");
+	}
+}
+```
