@@ -1,19 +1,20 @@
-#1.¼ò½é
-* 1.AndroidCache ÊÇÒ»¸öÎªandroidÖÆ¶¨µÄ ÇáÁ¿¼¶µÄ ¿ªÔ´»º´æ¿ò¼Ü¡£ÇáÁ¿µ½Ö»ÓÐÒ»¸öjavaÎÄ¼þ£¨ÓÉÊ®¼¸¸öÀà¾«¼ò¶øÀ´£©¡£
+<img src="https://github.com/laixiao/AndroidCache/blob/master/doc/1.png"></img>
+#1.ç®€ä»‹
+* 1.AndroidCache æ˜¯ä¸€ä¸ªä¸ºandroidåˆ¶å®šçš„ è½»é‡çº§çš„ å¼€æºç¼“å­˜æ¡†æž¶ã€‚è½»é‡åˆ°åªæœ‰ä¸€ä¸ªjavaæ–‡ä»¶ï¼ˆç”±åå‡ ä¸ªç±»ç²¾ç®€è€Œæ¥ï¼‰ã€‚
   
-* 2.Ö§³ÖµÄÊý¾ÝÀàÐÍ£º
-  > * ÆÕÍ¨µÄ×Ö·û´®
+* 2.æ”¯æŒçš„æ•°æ®ç±»åž‹ï¼š
+  > * æ™®é€šçš„å­—ç¬¦ä¸²
   > * JsonObject
   > * JsonArray
   > * Bitmap
   > * Drawable
-  > * ÐòÁÐ»¯µÄjava¶ÔÏó
-  > * byteÊý¾Ý
+  > * åºåˆ—åŒ–çš„javaå¯¹è±¡
+  > * byteæ•°æ®
 
-* 3.Ö§³ÖÅäÖÃ
-  > * ¿ÉÒÔÅäÖÃ»º´æÂ·¾¶£¬»º´æ´óÐ¡£¬»º´æÊýÁ¿µÈ¡£
-  > * ¿ÉÒÔÉèÖÃ»º´æ³¬Ê±Ê±¼ä£¬»º´æ³¬Ê±×Ô¶¯Ê§Ð§£¬²¢±»É¾³ý¡£
-  > * Ö§³Ö¶à½ø³Ì¡£
+* 3.æ”¯æŒé…ç½®
+  > * å¯ä»¥é…ç½®ç¼“å­˜è·¯å¾„ï¼Œç¼“å­˜å¤§å°ï¼Œç¼“å­˜æ•°é‡ç­‰ã€‚
+  > * å¯ä»¥è®¾ç½®ç¼“å­˜è¶…æ—¶æ—¶é—´ï¼Œç¼“å­˜è¶…æ—¶è‡ªåŠ¨å¤±æ•ˆï¼Œå¹¶è¢«åˆ é™¤ã€‚
+  > * æ”¯æŒå¤šè¿›ç¨‹ã€‚
   
-#2.Ê¹ÓÃ£¨²Î¿´demo£©
-<img src=""></img>
+#2.ä½¿ç”¨ï¼ˆå‚çœ‹demoï¼‰
+<img src="https://github.com/laixiao/AndroidCache/blob/master/doc/2.png"></img>
