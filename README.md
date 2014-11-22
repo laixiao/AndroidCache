@@ -53,3 +53,4 @@ public class SaveBitmapActivity extends Activity {
 	}
 }
 ```
+Android开发部落交流群：430049289
